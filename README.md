@@ -14,7 +14,7 @@ Ejemplo de dos selects dependientes - distribuidor y modelos
 
 ## Instalación
 1. En una terminal: git clone https://github.com/hectorqlucero/carros.git
-2. Configurar `project.clj`
+2. Configurar `project.clj` - Se puede dejar sin modificar, ya que esta configurado.
 3. Renombrar: `/resources/private/config_example.clj` a `/resources/private/config.clj`
 4. Configurar: `/resources/private/config.clj`
 5. Crear una base de datos con el mismo nombre de la configuracion **5.** Usando dbeaver o tu cliente de preferencia.
