@@ -30,7 +30,7 @@ Ejemplo de dos selects dependientes - distribuidor y modelos
         1. **Usuario**: user@gmail.com    **contraseña**: user
         2. **Usuario**: admin@gmail.com   **contraseña**: admin
         3. **Usuario**: sistema@gmail.com **contraseña**: sistema
-        4. dos records end la tabla distibuidor
+        4. dos records en la tabla distibuidor
         5. seis records en la tabla modelos
 
 ## Usarlo cuando esta instalado
