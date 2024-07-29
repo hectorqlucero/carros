@@ -110,7 +110,7 @@
   []
   (list
    (modal-script)
-   ;; Nota: funcion 'get_id()' para borrar 'options' luego crear 'options' actuales y ejecutar esta funcion al terminar de cargar el DOM o sea la pagina con todos sus elementos.
+   ;; Nota: funcion 'get_modelo_options()' para borrar 'options' luego crear 'options' actuales y ejecutar esta funcion al terminar de cargar el DOM o sea la pagina con todos sus elementos.
    [:script
     "
    function get_modelo_options() {
