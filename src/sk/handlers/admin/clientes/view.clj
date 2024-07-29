@@ -134,6 +134,3 @@
       get_id();
    });
    "]))
-
-(comment
-  (get-modelos-id))
