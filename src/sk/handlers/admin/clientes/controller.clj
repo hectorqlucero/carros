@@ -58,7 +58,7 @@
       (error-404 "Record se processo correctamente!" "/admin/clientes")
       (error-404 "No se pudo procesar el record!" "/admin/clientes"))))
 
-(defn get-options [dist-id models-id] ;; Funcion para crear opciones con ajax. Ver en el view la funcion de jquery 'get_id ()'
+(defn get-options [dist-id models-id] ;; Funcion para crear opciones con ajax. Ver en el view la funcion de jquery 'get_modelo_options ()'
   (let [rows (get-modelos-options dist-id)
         valor (get-modelo-value models-id)
         body (html
