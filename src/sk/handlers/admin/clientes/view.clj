@@ -66,7 +66,7 @@
                   :name "distribuidor_id"
                   :placeholder "distribuidor_id aqui..."
                   :required false
-                  :onchange "get_id()"
+                  :onchange "get_modelo_options()"
                   :value (:distribuidor_id row)
                   :options (distribuidor-options)})
    (build-select {:label "MODELO" ;; Nota no hay parametros 'options' ni 'value'
@@ -113,7 +113,7 @@
    ;; Nota: funcion 'get_id()' para borrar 'options' luego crear 'options' actuales y ejecutar esta funcion al terminar de cargar el DOM o sea la pagina con todos sus elementos.
    [:script
     "
-   function get_id() {
+   function get_modelo_options() {
     let valor = $('#distribuidor_id').val();
     let modelo = $('#modelos_id_tmp').val();
     $('#modelos_id')
@@ -131,6 +131,6 @@
     });
    }
    $(document).ready(function () {
-      get_id();
+      get_modelo_options();
    });
    "]))
